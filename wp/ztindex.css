@@ -1,0 +1,415 @@
+#banner{margin:20px auto}
+.bImg-ctn>a{overflow:hidden;display:block;width:1280px;height:480px;border-radius:3px}
+.bImg-ctn img{width:100%;height:100%}
+.layui-carousel-arrow[lay-type=sub]{top:237px;width:44px;height:44px;text-align:left}
+.layui-carousel-arrow[lay-type=add]{top:237px;width:44px;height:44px;right:0;text-align:right}
+.layui-carousel-arrow i{display:inline-block;width:60px;height:50px}
+.layui-carousel-arrow[lay-type=sub] i{position:absolute;left:14px;background:url(../images/banner_arrow_l.png) 0 12px no-repeat;top:0}
+.layui-carousel-arrow[lay-type=add] i{background:url(../images/banner_arrow_r.png) 17px 12px no-repeat}
+#banner:hover .layui-carousel-arrow[lay-type=sub]{border-radius:50%;left:30px!important;background-color:rgba(0,0,0,0.2)}
+#banner:hover .layui-carousel-arrow[lay-type=add]{border-radius:50%;right:30px!important;background-color:rgba(0,0,0,0.2)}
+.djc-alctn{overflow:hidden}
+.djc-alctn>ul{margin-right:-20px}
+.djc-al-list{position:relative;float:left;width:240px;height:142px;margin-right:20px;margin-bottom:35px;overflow:hidden;cursor:pointer;border-radius:3px}
+.djc-al-list a,.djc-al-list img{display:block;width:100%;height:100%}
+.al-msgctn{position:absolute;left:0;bottom:0;top:62px;z-index:2;color:#fff;font-size:14px;padding:0 12px 14px;background:-webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.6));background:-o-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.6));background:-moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.6));background:linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0.6));padding-top:20px}
+.al-bn{font-size:18px;margin-bottom:4px;width:230px;font-weight:bold}
+.al-msg{width:228px;font-size:14px;padding-top:2px}
+.al-inforCtn{position:absolute;top:142px;left:0;z-index:5;width:240px;height:142px;background-color:rgba(0,0,0,.7);color:#fff;font-size:14px;padding:12px 12px 14px;overflow:hidden}
+.infor-bn{margin-bottom:6px}
+.infor-ar{color:#999;margin-bottom:28px}
+.main-left{float:left;margin-right:46px;width:910px}
+.dm-ctn{width:910px}
+.dm-title-ctn,.dr-title-ctn{margin-bottom:30px;margin-top:15px;line-height:40px}
+.dm-title,.dr-title{font-size:30px;color:#333;font-weight:bold}
+.dm-cBtn,.dr-cBtn{color:#999;font-size:14px}
+.dm-change:before{content:'';display:inline-block;width:12px;height:14px;background:url(../images/icon_change.png) no-repeat;margin-right:4px;vertical-align:middle}
+.dm-change{margin-right:26px;cursor:pointer;color:#999}
+.dm-change:hover{color:#666}
+.dm-lkall,.dr-lkall{color:#999}
+.dm-lkall:hover{color:#666!important}
+.dm-cart-ctn>ul{margin-right:-20px;margin-bottom:-30px}
+.dm-list{overflow:hidden;position:relative;float:left;width:166px;height:303px;margin-right:20px;margin-bottom:16px}
+.dm-list>a{display:block}
+.dm-thumb{width:166px;height:224px;border-radius:3px}
+.dm-bn{font-size:18px;color:#333;font-weight:bold;margin:14px 0 8px}
+.dm-tagList li{float:left;margin-right:4px;font-size:14px;color:#999;font-size:14px}
+.dr-ctn{float:left;width:324px}
+.dr-list{margin-bottom:23px}
+.dr-list>a{display:block}
+.dr-num{float:left;width:54px;height:54px;margin-right:6px;margin-top:2px}
+.dr-num-1{background:url(../images/index_icon_parking.png) 0 0 no-repeat}
+.dr-num-2{background:url(../images/index_icon_parking.png) -54px 0 no-repeat}
+.dr-num-3{background:url(../images/index_icon_parking.png) -108px 0 no-repeat}
+.dr-cartCtn{float:left;width:264px;height:74px}
+.dr-thumb{float:left;width:74px;height:74px;border-radius:3px}
+.dr-cmsg{overflow:hidden;float:left;width:190px;padding:12px 0 0 15px}
+.dr-bn{margin-bottom:5px}
+.dr-anthor{color:#999;font-size:14px;width:100px}
+.dr-hot:before{content:'';display:inline-block;vertical-align:middle;width:10px;height:12px;background:url(../images/icon_parking_hot.png) no-repeat 0 0;margin-right:8px;line-height:12px}
+.dr-hot{color:#999;font-size:12px}
+.bd-num{float:left;text-align:center;width:28px;height:28px;line-height:28px;margin-left:14px;margin-right:20px;border-radius:50%;font-size:16px;color:#666;background-color:#f2f2f2}
+.bd-infor-ctn{width:262px;height:26px;line-height:26px}
+.dr-bn{width:100%;font-size:18px;color:#333;font-weight:bold}
+.comic-type-ctn{margin-bottom:25px}
+.qbmh-ul{margin-right:-31px}
+.qbmh-ulmt20{margin-top:20px;}
+.qbmh-ul li{position:relative;float:left;margin-right:31px;margin-bottom:5px;height:31px;font-size:14px;color:#333;cursor:pointer}
+.qbmh-ul li a{color:#333;}
+.qbmh-ul li.ct-active a{color:#333}
+.ct-active:after{content:'';display:block;width:10px;height:4px;border-radius:2px;background-color:#333;margin:8px auto 0}
+.comic-tp-ctn>ul{margin-right:-22px;margin-bottom:10px}
+.char-cBtn{margin-right:-28px}
+.char-lkall{float:left;margin-right:28px;color:#666}
+.ct-active2{color:#333}
+.ct-active2:after{content:'';display:block;width:10px;height:4px;border-radius:2px;background-color:#333;margin:0 auto 0}
+.ct-active2:hover{color:#333}
+.rtype-ctn{text-align:center;float:left;margin-right:40px}
+.rt-list{width:140px;height:42px;line-height:42px;margin-bottom:4px;border:1px solid #f5f5f5;border-radius:3px;font-size:16px;color:#666;background-color:#f7f7f7;cursor:pointer}
+.rt-active{background:#333;color:#333}
+.trank-ctn{width:100%;}
+.trank-ctnul {display:flex;flex-direction:column;height: 490px;flex-wrap: wrap;}
+.tr-list{position:relative;width:256px;height:42px;line-height:42px;font-size:16px;margin-bottom:5px;margin-top:2px;}
+.tr-list a{width:210px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.trank-ctnul li:nth-child(1) span {background:#333;}
+.trank-ctnul li:nth-child(2) span {background:#e4e4e4;}
+.trank-ctnul li:nth-child(3) span {background:#d5b25a;}
+.tr-num{position:absolute;left:0;top:50%;margin-top:-14px;width:28px;height:28px;background:#f3f3f3;text-align:center;line-height:28px;border-radius:50%;margin-right:18px;color:#fff;}
+.tr-gj{background:#333}
+.tr-yj{background:#e4e4e4}
+.tr-jj{background:#d5b25a}
+.tr-link{display:block;height:42px;padding-left:46px;overflow:hidden}
+.tr-link:hover{color:#333}
+.friendLink-ctn{position:relative;width:1280px;margin:60px auto 0}
+.fri-Link-Img{display:block;margin:0 auto;width:450px;height:108px}
+.fri-List-ctn{overflow:hidden;margin-top:26px;margin-bottom:30px}
+.friendList{margin-right:-20px}
+.friendList li{float:left;height:32px;text-align:center;margin-right:20px;margin-bottom:20px}
+.friendList li a{display:block;width:100%;height:100%;font-size:16px;line-height:32px;color:#333}
+.xsyh-ha{width:74px;height:30px;background-color:#ff6161;position:absolute;top:182px;left:92px;color:#fff;line-height:30px;font-size:14px;text-align:center}
+.myxz_ztz{width:1280px;margin:0 auto;margin-top:45px;margin-bottom:35px}
+.all-comic{overflow:hidden;margin-top:10px}
+.charts{overflow:hidden}
+.yzrq-ul{margin-top:-5px}
+.sszk-ul{margin-top:-5px}
+.rt-list-warp{margin-top:-10px}
+.dr-title-yzrq{font-size:30px;color:#333;font-weight:bold;margin-left:12px}
+.dr-title-sszk{font-size:30px;color:#333;font-weight:bold;margin-left:12px}
+.myxz_kbl{background:url(../images/myxzztz.jpg);width:1280px;height:142px;border-radius:3px}
+.djc-right-img{display:inline-block;vertical-align:middle}
+#header{position:relative;background: #333;}
+.search-back{padding-top:169px;font-size:18px;line-height:24px;color:#999;background:url(../images/bg_empty.png) center 0 no-repeat;text-align:center;}
+.search-back em{color:#666;margin:0 5px}
+
+.section
+{
+    float: left;
+    width: 720px;
+	font-size:14px;
+}
+.sd_head
+{
+    text-align: center;
+    padding: 16px 0 20px 0;
+}
+
+.sd_head .t1
+{
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.sd_head .date
+{
+	height: 36px;
+	line-height: 36px;
+	color: #999;
+}
+.sd_article
+{
+    line-height: 30px;
+	font-size: 16px;
+    font-family: "Microsoft Yahei";
+    text-align: justify;
+}
+
+.sd_list li
+{
+    height: 342px;
+    padding-top: 25px;
+    border-bottom: 1px solid #fdf2f6;
+}
+
+    .sd_list li:last-child
+    {
+        border: 0;
+    }
+
+.sd_list .photo
+{
+    width: 224px;
+    height: 316px;
+    float: left;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+    .sd_list .photo img
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.sd_list .inf
+{
+    width: 445px;
+    float: right;
+    padding-right: 20px;
+    height: 316px;
+    position: relative;
+}
+
+.sd_list .tp
+{
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.sd_list .name
+{
+    display: inline-block;
+    max-width: 380px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sd_list .score
+{
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    padding-top: 7px;
+    background: url("../images/score.png") no-repeat top center;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.sd_list .num
+{
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    color: #fb9aae;
+    font-size: 24px;
+    padding-top: 7px;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+.sd_list .topa
+{
+    margin-left: 35px;
+}
+.sd_list .tags
+{
+    width: 270px;
+}
+
+.sd_list .tag
+{
+    width: 135px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    color: #999;
+}
+
+    .sd_list .tag span
+    {
+        color: #666;
+    }
+
+.sd_list .tip
+{
+    height: 96px;
+    line-height: 32px;
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    color: #666;
+    margin-top: 5px;
+}
+
+.sd_list .reada
+{
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    background: #333;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+.nd_card
+{
+    border: 1px solid #fce6ee;
+	margin: 20px 0 20px 0;
+    position: relative;
+    padding: 20px;
+}
+
+    .nd_card .photo
+    {
+        float: left;
+        display: block;
+        width: 100px;
+        height: 136px;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .nd_card .photo img
+        {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    .nd_card .inf
+    {
+        width: 340px;
+        float: left;
+        padding-left: 20px;
+    }
+
+    .nd_card .name
+    {
+        height: 36px;
+        line-height: 36px;
+        font-weight: bold;
+        font-size: 18px;
+        display: inline-block;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .nd_card .tags
+    {
+        height: 34px;
+        line-height: 34px;
+        color: #999;
+    }
+
+        .nd_card .tags span
+        {
+            float: left;
+            padding-right: 30px;
+        }
+
+    .nd_card .tip
+    {
+        padding-top: 16px;
+        line-height: 20px;
+        font-size: 14px;
+        color: #666;
+        height: 40px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+    }
+
+    .nd_card .fline
+    {
+        height: 136px;
+        border-left: 1px solid #fce6ee;
+        position: absolute;
+        top: 20px;
+        left: 540px;
+    }
+
+    .nd_card .c_right
+    {
+        width: 160px;
+        position: absolute;
+        right: 30px;
+        top: 45px;
+    }
+
+    .nd_card .stars
+    {
+        height: 36px;
+        text-align: center;
+    }
+
+        .nd_card .stars span
+        {
+            display: inline-block;
+            width: 16px;
+            height: 17px;
+            background: url("../images/star2.png") no-repeat top center;
+        }
+
+        .nd_card .stars .hover
+        {
+            background-image: url("../images/star.png");
+        }
+
+    .nd_card .go
+    {
+        display: block;
+        width: 160px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background: #333 ;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #fff !important;
+    }
+
+    .nd_card .auto
+    {
+        font-size: 14px;
+    }
+
+        .nd_card .auto a
+        {
+            float: left;
+            margin-top: 6px;
+            color: #999;
+        }
+
+        .nd_card .auto em
+        {
+            float: left;
+            color: #ccc;
+            padding: 8px 16px 0 16px;
+        }
